@@ -1,0 +1,18 @@
+/* solution.css */
+
+/* More specific selector to override the inline style effectively. */
+#myElement.myClass {
+  color: blue !important; /* Use !important only if absolutely necessary. */
+}
+
+/* Improved selector order for better style cascade. More specific selectors are placed later. */
+.myClass {
+  font-size: 16px;
+}
+#myElement {
+  background-color: #f0f0f0;
+}
+/* Using classes for better specificity, avoiding ID overuse */
+.main-section .important-text {
+  font-weight: bold;
+} 
